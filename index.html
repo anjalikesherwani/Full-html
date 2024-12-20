@@ -8,7 +8,7 @@
 <body>
      <h1>Open tag</h1>  <!--it does not have range -->
     <P>br ,hr, img</P>
-    <p>hello<br> world <hr> <img src="world.jpg" alt="world"></p>
+    <p>hello<br> world <hr> <img src="world.jpg" alt="world" height="200px" width="200px"></p>
     <hr>
     <h1>close tags</h1>    <!--  it has range -->
     <p>html, p, div</p>
@@ -92,7 +92,7 @@
 
 
 <h3>cricle</h3>
-<ul type="cricle" >
+<ul type="circle" >
     <li>html</li>
     <li>css</li>
     <li>js</li>
@@ -155,6 +155,8 @@
 </ol> 
    
 </ul>
+
+
 
 <h3>Image tags and attributes</h3>
 <p>image tags is open tag </p>
@@ -228,8 +230,129 @@ alt="This image is missing" height="350px" width="280px">
     </tbody>
 </table>
 
+<h2>table attributes</h2>
+<p>divided into 3 part</p>
+<p>1.table <table></table> 2. tr <tr></tr> <br><br> 3. td, th <td></td>
+<th></th></p>
+<p><ol><li>table
+    <ul>
+        <li>bgcolor</li>
+        <li>align</li>
+        <li>border</li>
+        <li>cellspacing</li>
+        <li>cellpadding</li>
+        <li>width</li>
+        <li>height</li>
+    </ul>
+    <li>tr 
+        <ul>
+            <li>bgcolor</li>
+            <li>align</li>
+        </ul>
+    </li>
+    <li>th,th 
+        <ul>
+            <li>bgcolor</li>
+            <li>rowspan</li>
+            <li>colspan</li>
+        </ul>
+    </li>
+</li></ol></p>
+
+<table bgcolor="pink" border="5" align="center"
+ cellpadding="10" cellspacing="10" width="500" height="300">
+    <thead>
+        <tr >
+            <th>Course</th>
+            <th>Fee</th>
+            <th>Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr bgcolor="yellow" align="center">
+            <td bgcolor="red">web development</td>
+            <td >100000</td>
+            <td rowspan="2">4 months</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" bgcolor="gray">full stack developer</td>
+        </tr>
+        <tr align="left">
+            <td>HTML</td>
+            <td>50000</td>
+            <td>2 months</td>
+        </tr>
+    </tbody>
+</table>
 
 
+<h2>Form</h2>
+<p>an HTML form is used to collect user input.
+     the user input can then be sent to a server for processing.</p>
+<p>In HTML form<form></form> tag is used to create a form </p>
+<p><ol>
+    <li>List of form elements
+        <ul>
+            <li>Text Input controls</li>
+            <li>Checkboxs controls</li>
+            <li>Radio Box controls</li>
+            <li>Select Box controls</li>
+            <li>File Select boxes</li>
+            <li>Hidden controls</li>
+            <li>Clickable Buttons</li>
+            <li>Submit and reset button</li>
+            
+        </ul>
+    </li></ol> </p>
+
+<h2>form and its elements tags</h2>
+<ul>
+    <li>form 
+        <ol>
+            <li>Textbox
+                <ul>
+                    <li>It is used to take small text as input </li>
+                </ul>
+            </li>
+            <li>Textarea
+                <ul>
+                    <li>It is used to take large text as input </li>
+                </ul>
+                <li>Radio Button 
+                <ul>
+                    <li>It is used to select only one item among 2-3</li>
+                </ul>
+                <li>Simbit Button
+                    <ul>
+                        <li>Used to submit the form</li>
+                    </ul>
+                    <li>Reset Button 
+                        <ul>
+                            <li>used to reset the form</li>
+                        </ul>
+                    </li>
+                </li>
+                </li>
+            </li>
+        </ol>
+        <li>input 
+            <ol>
+                <li>type</li>
+                <li>value</li>
+                <li>placeholder</li>
+            </ol>
+        </li>
+    </li>
+</ul>
+
+<h2>Enquiry Form</h2> 
+<form action="">
+    Name: <input type="text" name="name"><br><br>
+    Address: <textarea name="" id=""></textarea><br><br>
+    Gender: 
+    <input type="radio" value="m" name="gender">Male
+    <input type="radio" value="f"name="gender">Female
+</form>
 
 </body>
 </html>
