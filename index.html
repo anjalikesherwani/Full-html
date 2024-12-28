@@ -346,12 +346,115 @@ alt="This image is missing" height="350px" width="280px">
 
 <h2>Enquiry Form</h2> 
 <form action="">
-    Name: <input type="text" name="name"><br><br>
+    Name: <input type="text" name="name" placeholder="Enter your name here..."><br><br>
     Address: <textarea name="" id=""></textarea><br><br>
     Gender: 
     <input type="radio" value="m" name="gender">Male
     <input type="radio" value="f"name="gender">Female
+    <input type="radio" value="o"name="gender">Other
+    <br>
+    <br>
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+
 </form>
+
+<h2>Form elements</h2>
+<p><ol>
+    <li>Select box</li>
+ <ul>
+    <li>select
+        <ol>
+            <li>optgroup </li>
+            <li>option </li>
+        </ol>
+    </ul>
+        <li>check </li>
+        <li>file input</li>
+        <li>fieldset
+            <ul>
+                <li>legend </li>
+            </ul>
+        </li>
+    </li>
+
+</ol></p>
+
+<h2>Enquiry Form</h2> 
+<fieldset>
+    <legend>Enquiry</legend>
+<form action="">
+    Name: <input type="text" name="name" placeholder="Enter your name here..."><br><br>
+    Address: <textarea name="" id=""></textarea><br><br>
+    Gender: 
+    <input type="radio" value="m" name="gender">Male
+    <input type="radio" value="f"name="gender">Female
+    <input type="radio" value="o"name="gender">Other
+    <br>
+    <br>
+    Country:
+    <select name="" id="">
+        <option value="">Please select a country...</option>
+        <optgroup label="Asia"> 
+        <option value="india">India</option>
+        <option value="Shir">Shir Lanka </option>
+        <option value="nepal">Napal </option>
+    </optgroup>
+        <option value="usa">USA</option>
+    </select> <br><br>
+    Hobbies:
+    <input type="checkbox"value="hobbies[]">Dancing
+    <input type="checkbox"value="hobbies[]">Singing 
+    <input type="checkbox"value="hobbies[]">book reading
+    <br><br>
+    Image:
+    <input type="file" value="image">
+    <br><br>
+    <input type="submit" value="send">
+    <input type="reset" value="reset">
+</fieldset>
+</form>
+
+<h2>html 5 form Elements</h2>
+<p><ol>
+    <li>input
+        <ul>
+            <li>Color</li>
+            <li>Email</li>
+            <li>Password</li>
+            <li>Number</li>
+            <li>Hidden</li>
+        </ul>
+    </li>
+</ol></p>
+
+<form action="">
+    <fieldset>
+        <legend>HTLM 5 </legend>
+        Color: <input type="color" name="color"><br><br>
+        Email:<input type="email" name="email"><br><br>
+        Password: <input type="password" name="pass"><br><br>
+        Age: <input type="number" name="age"><br><br>
+        Secret: <input type="hidden" name="secret"><br><br>
+        <input type="submit" name="submit">
+    </fieldset>
+</form>
+
+<h2>html 5 calendar Elements</h2>
+<p><ol>
+    <li>input
+        <ul>
+            <li>Date</li>
+            <li>datetime-local</li>
+            <li>time</li>
+            <li>month</li>
+            <li>week</li>
+            <li>range</li>
+        </ul>
+    </li>
+</ol></p>
+
+
 
 </body>
 </html>
