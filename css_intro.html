@@ -4,6 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(224, 216, 204);
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: aqua;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color: rgb(12, 111, 111);
+        }
+        .col1{
+            width: 250px;
+            height: 250px;
+            background-color: aquamarine;
+            float: left;
+        }
+        .col2{
+            width: 250px;
+            height: 250px;
+            background-color: rgb(51, 134, 28);
+            float: right;
+        }
+    </style>
 </head>
 <body>
    <h1>CSS complete intro</h1>
@@ -65,25 +94,22 @@
     </ul>
 
     <h2>div work </h2>
-<div> <!--Main div-->
-    <div> <!--Parent row 1-->
-        <div> <!--col1-->
+<div class="main"> <!--Main div-->
+    <div id="parent-row-1"> <!--Parent row 1-->
+        <div class="col1"> <!--col1-->
             Home
         </div>
-    </div>
-    <div>
-        <div>
-            Course
+        <div class="col2">
+            About
         </div>
     </div>
-    <div> <!--Parent row 2-->
-        <div><!--col 2-->
-            Contact
-        </div> 
-    </div>
-    <div>
-        <div>
+    <hr>
+    <div id="parent-row-2"> <!--Parent row 2-->
+        <div class="col1"><!--col 2-->
             Gallary
+        </div> 
+        <div class="col2">
+            Contact 
         </div>
     </div>
 </div>
